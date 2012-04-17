@@ -1,0 +1,80 @@
+* {
+/*    height: 100%;*/
+    margin: 0;
+    padding: 0;
+    font-family: asica;
+}
+
+body {
+    height: 100%;
+/*    background-color: #DDD;*/
+}
+
+header {
+    height: 4%;
+    background-color: #E24A37;
+    opacity: 0.9;
+    padding: 5px;
+    box-shadow: 250px 1px 5px #403737;
+    color: white;
+    font-size: 30px;
+}
+
+nav {
+    
+}
+
+nav {
+    width: 250px;
+    box-shadow: 0 1px 3px #333;
+    float: left;
+}
+
+form {
+    height: 30px;
+    width: 100%;
+}
+
+form input[type="text"] {
+    width: 83.5%;
+    border: 0;
+    float: left;
+    height: 30px;
+    box-shadow: inset 0 0 3px #333;
+    font-size: 15px;
+}
+
+form input[type="submit"] {
+    width: 17%;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    background: #61A598;
+    border: 0;
+    font-weight: bold;
+}
+
+.clear-block {
+    clear: both;
+    height: 0;
+}
+
+#pages {
+    opacity: 0.8;
+    background-color: black;
+    height: 800px;
+}
+
+section {
+    height: 90%;
+    width: 81%;
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+section iframe {
+    border: 1px solid #333;
+    width: 98%;
+    height: 48%;
+    margin: 5px;
+}
