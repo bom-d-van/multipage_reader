@@ -1,5 +1,4 @@
 * {
-/*    height: 100%;*/
     margin: 0;
     padding: 0;
     font-family: asica;
@@ -7,7 +6,7 @@
 
 body {
     height: 100%;
-/*    background-color: #DDD;*/
+    background-color: #DDD;
 }
 
 header {
@@ -18,10 +17,6 @@ header {
     box-shadow: 250px 1px 5px #403737;
     color: white;
     font-size: 30px;
-}
-
-nav {
-    
 }
 
 nav {
@@ -65,14 +60,7 @@ form input[type="submit"] {
     height: 800px;
 }
 
-section {
-    height: 90%;
-    width: 81%;
-    float: right;
-    margin: 5px 5px 0 0;
-}
-
-section iframe {
+iframe {
     border: 1px solid #333;
     width: 98%;
     height: 48%;
