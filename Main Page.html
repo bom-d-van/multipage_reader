@@ -5,6 +5,9 @@
   <link rel="stylesheet" href="Main.css" type="text/css" media="screen" title="Main.css" charset="utf-8" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
   <script type="text/javascript" charset="utf-8" src="Main.js"></script>
+  <title>Multipage Reader</title>
+</head>
+<body>
   <header>Multipage Reader</header>
   <nav>
     <form action="" method="POST" accept-charset="utf-8">
@@ -12,10 +15,15 @@
       <input type="submit" value="+" id="addPage">
     </form>
     <div class="clear-block"></div>
-    <div id="pages"></div>
+    <div id="page-blocks">
+      <div class="page-block left-page-block">
+        <div class="page-thumbnail"></div>
+      </div>
+      <div class="page-block"></div>
+      <div class="page-block left-page-block"></div>
+      <div class="page-block bottom-page-block"></div>
+      <div class="page-block left-page-block bottom-page-block"></div>
+    </div>
   </nav>
-  <title>Multipage Reader</title>
-</head>
-<body>
 </body>
 </html>

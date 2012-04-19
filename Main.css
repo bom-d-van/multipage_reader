@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-    width: 250px;
+    width: 248px;
     box-shadow: 0 1px 3px #333;
     float: left;
 }
@@ -31,7 +31,7 @@ form {
 }
 
 form input[type="text"] {
-    width: 83.5%;
+    width: 208px;
     border: 0;
     float: left;
     height: 30px;
@@ -40,7 +40,7 @@ form input[type="text"] {
 }
 
 form input[type="submit"] {
-    width: 17%;
+    width: 40px;
     height: 30px;
     color: white;
     font-size: 20px;
@@ -54,10 +54,45 @@ form input[type="submit"] {
     height: 0;
 }
 
-#pages {
+#page-blocks {
     opacity: 0.8;
     background-color: black;
-    height: 800px;
+    overflow: auto;
+}
+
+.page-block {
+    width: 123px;
+    height: 123px;
+    float: left;
+    background-color: white;
+    border: 0 solid skyblue;
+    border-top-width: 1px;
+    border-right-width: 1px;
+/*    background-color: skyblue;*/
+    background-color: -webkit-linear-gradient(top, skyblue, blue)
+}
+
+.page-block:hover {
+    background-color: skyblue;
+    
+}
+
+.page-block:focus {
+    background-color: black;
+}
+
+.left-page-block {
+    border-left-width: 1px;
+    width: 122px;
+}
+
+.bottom-page-block {
+    border-bottom-width: 1px;
+    height: 122px;
+}
+
+.selected-page-block {
+    background-color: blue;
 }
 
 iframe {
