@@ -73,8 +73,7 @@ form input[type="submit"] {
 }
 
 .page-block:hover {
-    background-color: skyblue;
-    
+    background-color: skyblue;   
 }
 
 .page-block:focus {
@@ -92,12 +91,49 @@ form input[type="submit"] {
 }
 
 .selected-page-block {
-    background-color: blue;
+    background-color: dodgerblue;
 }
 
-iframe {
-    border: 1px solid #333;
-    width: 98%;
-    height: 48%;
-    margin: 5px;
+.inner-page-block {
+    margin: 3px auto;
+    overflow: auto;
+    background-color: white;
+    width: 110px;
+}
+
+.inner-page-block img {
+    width: 100px;
+    margin: 5px auto;
+    display: block;
+/*    border-radius: 5px;*/
+    border: 3px solid whiteSmoke;
+}
+
+.inner-page-block span {
+    display: block;
+    text-align: center;
+}
+
+.page-win {
+    position: absolute;
+    left: 300px;
+    width: 600px;
+    overflow: auto;
+    padding: 25px 0 50px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 3px 10px #333;
+}
+
+.page-win iframe {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    display: block;
+}
+
+.page-win .win-border {
+    
 }
