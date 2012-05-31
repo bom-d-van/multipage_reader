@@ -7,6 +7,7 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
   <link rel="stylesheet" type="text/css" 
   href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css"/>
+  <script type="text/javascript" charset="utf-8" src="Main.js"></script>
   <title>Multipage Reader</title>
 </head>
 <body>
@@ -18,18 +19,37 @@
     </form>
     <div class="clear-block"></div>
     <div id="page-blocks">
-      <div class="page-block left-page-block">
+      <div class="page-block left-page-block" id="page1">
         <div class="inner-page-block">
           <img class="page-thumbnail" src="http://open.thumbshots.org/image.pxf?url=http://css-tricks.com/"></img>
-          <span>Something Fun</span>
+          <span>Css Tricks</span>
         </div>
       </div>
-      <div class="page-block"></div>
-      <div class="page-block left-page-block"></div>
-      <div class="page-block bottom-page-block"></div>
-      <div class="page-block left-page-block bottom-page-block"></div>
+      <div class="page-block" id="page2">
+        <div class="inner-page-block">
+          <img class="page-thumbnail" src="http://open.thumbshots.org/image.pxf?url=http://www.nytimes.com/"></img>
+          <span>Ny Times</span>
+        </div>
+      </div>
+      <div class="page-block left-page-block" id="page3">
+        <div class="inner-page-block">
+          <img class="page-thumbnail" src="http://open.thumbshots.org/image.pxf?url=http://www.jquery.com/"></img>
+          <span>Jquery</span>
+        </div>
+      </div>
+      <div class="page-block bottom-page-block" id="page4">
+        <div class="inner-page-block">
+          <img class="page-thumbnail" src="http://open.thumbshots.org/image.pxf?url=http://www.xiami.com/"></img>
+          <span>Xiami Music</span>
+        </div>
+      </div>
+      <div class="page-block left-page-block bottom-page-block" id="page5">
+        <div class="inner-page-block">
+          <img class="page-thumbnail" src="http://open.thumbshots.org/image.pxf?url=http://www.baidu.com/"></img>
+          <span>Baidu</span>
+        </div>
+      </div>
     </div>
   </nav>
-  <script type="text/javascript" charset="utf-8" src="Main.js"></script>
 </body>
 </html>

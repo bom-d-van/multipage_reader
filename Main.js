@@ -15,10 +15,11 @@ $(function (undefined) {
     });
     // Open || Close a iframe window
     $("img.page-thumbnail").toggle(function (event) {
-        $(this).attr("src").replace(/.*url=/, "");
-        c.l("Open a window");
-        $("nav").after("<div class='page-win' id='page1'><iframe src='http://www.baidu.com'></iframe></div>");
-        $("#page1").draggable().resizable();
+        var url = $(this).attr("src").replace(/.*url=/, ""),
+            id = "win" + $(this).parent().parent().attr("id");
+        $("body").append("<div class='page-win' id='"+ id + "'><iframe src='" + url + "'></iframe></div>");
+        $("#" + id).draggable().resizable().height(650).width(900);
+        $(this).parent().click();
     }, function (event) {
         c.l("Close a window");
     });

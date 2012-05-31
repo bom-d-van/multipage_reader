@@ -116,11 +116,11 @@ form input[type="submit"] {
 
 .page-win {
     position: absolute;
-    left: 300px;
+    left: 200px;
     width: 600px;
-    overflow: auto;
+    overflow: hidden;
     padding: 25px 0 50px;
-    background-color: white;
+    background-color: whitesmoke;
     border: 1px solid black;
     box-shadow: 2px 3px 10px #333;
 }
@@ -132,8 +132,4 @@ form input[type="submit"] {
     border: 1px solid black;
     margin: auto;
     display: block;
-}
-
-.page-win .win-border {
-    
 }
